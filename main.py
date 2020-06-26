@@ -1,7 +1,12 @@
-import requests
+# import requests
+#
+# print ("Hello World")
+#
+# r = requests.get("https://sce.iti.ac.id")
+#
+# print (r.text)
 
-print ("Hello World")
+jumlahData = 100
 
-r = requests.get("https://sce.iti.ac.id")
-
-print (r.text)
+for x in range (1, jumlahData+1):
+    print(f"Data Ke - {x}")
